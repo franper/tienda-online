@@ -4,6 +4,9 @@
 			<i class="fa fa-user"></i> {{ Auth::user()->user }} <span class="caret"></span>
 		</a>
 		<ul class="dropdown-menu" role="menu">
+		@if(Auth::user()->type == 'admin')
+			<li>{!! link_to('admin/home', "Panel de administración") !!}</li>
+		@endif
 			<li><a href="{{ route('logout') }}">Finalizar sesión</a></li>
 		</ul>
 	</li>
