@@ -86,7 +86,7 @@ Route::get('order-detail', [
 	'uses' => 'CartController@orderDetail'
 ]);
 
-// Authentication routes...
+// Autenticacion
 Route::get('auth/login', [
 	'as' => 'login-get',
 	'uses' => 'Auth\AuthController@getLogin'
@@ -102,7 +102,7 @@ Route::get('auth/logout', [
 	'uses' => 'Auth\AuthController@getLogout'
 ]);
 
-// Registration routes...
+// Registro
 Route::get('auth/register', [
 	'as' => 'register-get',
 	'uses' => 'Auth\AuthController@getRegister'
