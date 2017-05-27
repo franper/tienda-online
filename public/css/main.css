@@ -1,0 +1,149 @@
+body
+{
+	background: white; /* cambia el color de fondo  */
+	font-family: 'Poiret One', cursive;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	/*font-family: 'Lobster Two', cursive;*/
+}
+
+/* Nav ----------*/
+.main-title
+{
+	color: black !important; /* cambia el color de la marca */
+	font-size: 40px;
+	margin: 5px;
+}
+
+.navbar-nav
+{
+	margin: 5px !important;
+}
+
+/* Footer -------*/
+footer
+{
+	background: #222;
+	color: white;
+	text-align: center;
+}
+
+footer h3
+{
+	color: white;
+}
+
+.lista
+{
+	list-style:none;
+}
+
+footer p
+{
+	text-align: justify;
+}
+
+ul.redes li
+{
+	display: inline-block;
+}
+
+ul.redes li a
+{
+	color: white;  /* cambia el color de los iconos de redes sociales */
+}
+
+.avatar
+{
+	border: 5px solid white;   /* cambia el color del avatar */
+	border-radius: 50%;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+/* Catalogo -------------*/
+#products {
+position: relative;
+max-width: 100%;
+width: 100%;
+}
+img {
+width: 100%;
+max-width: 100%;
+height: auto;
+/*height: 230px;*/
+}
+.white-panel {
+position: absolute;
+background: white;
+box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+padding: 10px;
+}
+.white-panel h1 {
+font-size: 1em;
+}
+.white-panel h1 a {
+color: #A92733;
+}
+.white-panel:hover {
+box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+margin-top: -5px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+/* Detalle producto ---------*/
+.product-block
+{
+	background: #fff;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+/* Slider ----------*/
+.navbar
+{
+	margin-bottom: 0;
+}
+
+.slide_img
+{
+	height: 500px;
+}
+
+/* Carrito -----------*/
+.table-cart
+{
+	background: #fff;
+	border-radius: 1em;
+	margin-bottom: 30px;
+	padding: 1em;
+}
+
+.table-cart img
+{
+	width: 50px;
+}
+
+/* Detalle del pedido ------------*/
+.page
+{
+	background: #fff;
+	border-radius: 1em;
+	margin-bottom: 30px;
+	padding: 1em;
+}
+
+/* Logo ----------------*/
+.container .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.container .navbar-brand>img {
+  padding: 7px 14px;
+}
