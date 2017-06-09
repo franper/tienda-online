@@ -113,6 +113,11 @@ Route::post('auth/register', [
 	'uses' => 'Auth\AuthController@postRegister'
 ]);
 
+// terminos y licencias
+Route::get('licencia', [
+	'as' => 'lic',
+	'uses' => 'StoreController@showlicence',
+]);
 
 // Paypal
 

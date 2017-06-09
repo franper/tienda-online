@@ -1,4 +1,4 @@
-<div id="slider" class="carousel slide" data-ride="carousel">
+<div id="slider" class="carousel slide sliderCat" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#slider" data-slide-to="0" class="active"></li>
@@ -9,21 +9,21 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="/img/movil2.png" class="slide_img" alt="slide1">
+        <img src="/img/movil2.png" class="slide_img imageSlider" alt="slide1">
         <div class="carousel-caption">
-          Slide 1
+        
         </div>
       </div>
       <div class="item">
-        <img src="/img/pc6.png" class="slide_img" alt="slide2">
+        <img src="/img/pc6.png" class="slide_img imageSlider" alt="slide2">
         <div class="carousel-caption">
-          Slide 2
+          
         </div>
       </div>
       <div class="item">
-        <img src="/img/consola3.png" class="slide_img" alt="slide3">
+        <img src="/img/consola3.png" class="slide_img imageSlider" alt="slide3">
         <div class="carousel-caption">
-          Slide 3
+          
         </div>
       </div>
   </div>

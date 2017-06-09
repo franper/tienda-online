@@ -35,7 +35,7 @@ Productos
 	</div><hr>
 
 	<p>
-		<a class="btn btn-primary" href="{{ route('home') }}">
+		<a class="btn btn-primary" href="{{ URL::previous() }}">
 			<i class="fa fa-chevron-circle-left"></i> Regresar
 		</a>
 	</p>

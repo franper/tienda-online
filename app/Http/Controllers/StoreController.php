@@ -43,4 +43,9 @@ class StoreController extends Controller
     {
         return view('store.contact');
     }
+
+    public function showlicence()
+    {
+        return view('store.licencia');
+    }
 }

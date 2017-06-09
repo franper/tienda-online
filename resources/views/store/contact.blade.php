@@ -8,14 +8,15 @@ Contacto
 <div class="container">
   <div class="row">    
       <div class="col-md-6 text-justify">
-        <h3 class="titulo">Contáctanos en: </h3><hr>
+        <h3 class="titulo">Contáctanos en: </h3><hr> 
+       <div class="contacto">   
         <p>Calle pájaro 28,</p>
         <p>28750, San Agustín del Guadalix, Madrid</p>
         <p>Teléfono: 655555555</p>
         <p>Fax: 916555555</p>
         <p>Correo: tecnoshop@hotmail.com</p>
         <p>www.tecnoshop.com</p>
-
+        </div>
       </div>
 
       <div class="col-md-6">

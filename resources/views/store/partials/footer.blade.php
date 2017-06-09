@@ -5,6 +5,7 @@
 			<p> Somos una empresa pionera que nos dedicamos a la ventas de aparatos tecnológicos con el objetivo de satisfacer las necesidades de nuestro cliente,
 				el cual nos comprometemos en la calidad del producto, que cumpla con un buen diseño, y de que nuestros clientes 
 				reciba correctamente el producto deseado </p>
+			<a target="_blank" href="{{ route('lic') }}">Términos y condiciones</a>
 		</div>
 
 		<div class="col-md-4">
@@ -23,19 +24,19 @@
 			<h3>Siguenos en :</h3>
 			<ul class="redes">
 				<li>
-					<a href=""><i class="fa fa-facebook-square fa-2x"></i></a>
+					<a target="_blank" href="https://es-es.facebook.com"><i class="fa fa-facebook-square fa-2x"></i></a>
 				 </li>	 	
 				 <li>
-				 	<a href=""><i class="fa fa-google-plus-square fa-2x"></i></a>
+				 	<a target="_blank" href="https://plus.google.com/?hl=es"><i class="fa fa-google-plus-square fa-2x"></i></a>
 				 </li>
 				 <li>
-				 	<a href=""><i class="fa fa-linkedin-square fa-2x"></i></a>
+				 	<a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin-square fa-2x"></i></a>
 				 </li>
 				 <li>
-				 	<a href=""><i class="fa fa-youtube-square fa-2x"></i></a>
+				 	<a target="_blank" href="https://www.youtube.com/?gl=ES&hl=es"><i class="fa fa-youtube-square fa-2x"></i></a>
 				 </li>
 				 <li>
-				 	<a href=""><i class="fa fa-twitter-square fa-2x"></i></a>
+				 	<a target="_blank" href="https://twitter.com/?lang=es"><i class="fa fa-twitter-square fa-2x"></i></a>
 				 </li>
 			</ul>
 			<h3>Contactanos : </h3>
