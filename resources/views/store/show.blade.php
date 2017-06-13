@@ -22,11 +22,11 @@ Productos
 				<div class="product-info panel">
 					<p>{{ $product->description }}</p>
 					<h3>
-						<span class="label label-primary">Precio: {{ number_format($product->price,2) }}€</span>
+						<span class="label label-primary">Precio: {{ number_format($product->price,2) }} €</span>
 					</h3>
 					<p>
 						<a class="btn btn-success btn-block" href="{{ route('cart-add', $product->slug) }}">
-							Comprar <i class="fa fa-cart-plus fa-2x"></i>
+							Añadir al carrito <i class="fa fa-cart-plus fa-2x"></i>
 						</a>
 					</p>
 				</div>

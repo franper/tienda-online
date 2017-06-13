@@ -18,13 +18,13 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="{{ route('category',2) }}">Camaras</a></li>
+            <li><a href="{{ route('category',2) }}">Cámaras</a></li>
             <li><a href="{{ route('category',1) }}">Móviles</a></li>
-            <li><a href="{{ route('category',6) }}">Tables</a></li>
+            <li><a href="{{ route('category',6) }}">Tablets</a></li>
             <li><a href="{{ route('category',4) }}">Ordenadores</a></li>
             <li class="divider"></li>
             <li class="dropdown-header">Juegos/consolas</li>
-            <li><a href="{{ route('category',5) }}">Video Juegos</a></li>
+            <li><a href="{{ route('category',5) }}">Videojuegos</a></li>
             <li><a href="{{ route('category',3) }}">Consolas</a></li>
           </ul>
         </li>

@@ -21,16 +21,16 @@
 					    </div>
 
 					    <div class="form-group">
-					        <label for="password">Password</label>
+					        <label for="password">Contraseña</label>
 					        <input class="form-control" type="password" name="password" id="password">
 					    </div>
 
 					    <div class="form-group">
-					        <input type="checkbox" name="remember"> Remember Me
+					        <input type="checkbox" name="remember"> Recordar email
 					    </div>
 
 					    <div class="form-group">
-					        <button class="btn btn-primary btn-block" type="submit">Login</button>
+					        <button class="btn btn-primary btn-block" type="submit">Identificarse</button>
 					    </div>
 					</form>
 				</div>

@@ -27,7 +27,7 @@
 					    </div>
 
 					    <div class="form-group">
-					        <label for="email">Correo</label>
+					        <label for="email">Email</label>
 					        <input class="form-control" type="email" name="email" value="{{ old('email') }}">
 					    </div>
 
@@ -37,12 +37,12 @@
 					    </div>
 
 					    <div class="form-group">
-					        <label for="password">Password</label>
+					        <label for="password">Contraseña</label>
 					        <input class="form-control" type="password" name="password">
 					    </div>
 
 					    <div class="form-group">
-					        <label for="password_confirmation">Confirmar Password</label>
+					        <label for="password_confirmation">Confirmar contraseña</label>
 					        <input class="form-control" type="password" name="password_confirmation">
 					    </div>
 

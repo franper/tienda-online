@@ -20,7 +20,7 @@ Contacto
       </div>
 
       <div class="col-md-6">
-        <h3 class="titulo">Localizanos en: </h3><hr>
+        <h3 class="titulo">Localízanos en: </h3><hr>
         <iframe class="col-md-12" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24209.29904150914!2d-3.61529985!3d40.670390999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1493641849359" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
   </div>

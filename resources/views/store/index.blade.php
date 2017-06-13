@@ -12,10 +12,10 @@
 				<img src="{{ $product->image }}">
 				<div class="product-info panel">
 					<p>{{ $product->extract }}</p>
-					<h3><span class="label label-primary">Precio: {{ number_format($product->price,2) }}€</span></h3>
+					<h3><span class="label label-primary">Precio: {{ number_format($product->price,2) }} €</span></h3>
 					<p>
 						<a class="btn btn-success" href="{{ route('cart-add', $product->slug) }}">
-							<i class="fa fa-cart-plus"></i> Comprar
+							<i class="fa fa-cart-plus"></i> Añadir el carrito
 						</a>
 						<a class="btn btn-default" href="{{ route('product-detail', $product->slug) }}"><i class="fa fa-chevron-circle-right"></i> Detalles</a>
 					</p>

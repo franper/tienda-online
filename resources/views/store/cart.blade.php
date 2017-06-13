@@ -34,7 +34,7 @@ Tu carrito de compra
 							<tr> 
 								<td><img src="{{ $item->image }}"></td>
 								<td>{{ $item->name }}</td>
-								<td>${{ number_format($item->price,2) }}</td>
+								<td>{{ number_format($item->price,2) }} €</td>
 								<td>
 									<input 
 										type="number"
@@ -52,7 +52,7 @@ Tu carrito de compra
 										<i class="fa fa-refresh"></i>
 									</a>
 								</td>
-								<td>${{ number_format($item->price * $item->quantity,2) }}</td>
+								<td>{{ number_format($item->price * $item->quantity,2) }} €</td>
 								<td>
 									<a href="{{ route('cart-delete', $item->slug) }}" class="btn btn-danger">
 										<i class="fa fa-remove"></i>
@@ -65,7 +65,7 @@ Tu carrito de compra
 				
 				<h3>
 					<span class="label label-primary">
-						Total: ${{ number_format($total,2) }}
+						Total: {{ number_format($total,2) }} €
 					</span>
 				</h3>
 

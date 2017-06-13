@@ -19,7 +19,7 @@
                             <th>Fecha</th>
                             <th>Usuario</th>
                             <th>Subtotal</th>
-                            <th>Envio</th>
+                            <th>Envío</th>
                             <th>Total</th>
                         </tr>
                     </thead>
@@ -49,9 +49,9 @@
                                 </td>
                                 <td>{{ $order->created_at }}</td>
                                 <td>{{ $order->user->name . " " . $order->user->last_name }}</td>
-                                <td>${{ number_format($order->subtotal,2) }}</td>
-                                <td>${{ number_format($order->shipping,2) }}</td>
-                                <td>${{ number_format($order->subtotal + $order->shipping,2) }}</td>
+                                <td>{{ number_format($order->subtotal,2) }} €</td>
+                                <td>{{ number_format($order->shipping,2) }} €</td>
+                                <td>{{ number_format($order->subtotal + $order->shipping,2) }} €</td>
                             </tr>
                         @endforeach
                     </tbody>

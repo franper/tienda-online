@@ -29,15 +29,15 @@
 					@foreach($cart as $item)
 						<tr>
 							<td>{{ $item->name }}</td>
-							<td>${{ number_format($item->price,2) }}</td>
+							<td>{{ number_format($item->price,2) }} €</td>
 							<td>{{ $item->quantity }}</td>
-							<td>${{ number_format($item->price * $item->quantity,2) }}</td>
+							<td>{{ number_format($item->price * $item->quantity,2) }} €</td>
 						</tr>
 					@endforeach
 				</table><hr>
 				<h3>
 					<span class="label label-primary">
-						Total: ${{ number_format($total, 2) }}
+						Total: {{ number_format($total, 2) }} €
 					</span>
 				</h3><hr>
 				<p>
@@ -45,8 +45,8 @@
 						<i class="fa fa-chevron-circle-left"></i> Regresar
 					</a>
 
-					<a href="{{ route('payment') }}" class="btn btn-success">
-						Pagar con <i class="fa fa-cc-paypal fa-2x"></i>
+					<a href="{{ route('buy') }}" class="btn btn-success">
+						Comprar
 					</a>
 				</p>
 			</div>

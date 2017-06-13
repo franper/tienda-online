@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Product;
+use App\Order;
+use App\OrderItem;
 
 class CartController extends Controller
 {
@@ -83,6 +85,41 @@ class CartController extends Controller
         $total = $this->total();
 
         return view('store.order-detail', compact('cart', 'total'));
+    }
+
+    // Comprar 
+    public function saveOrder()
+    {
+        $cart = \Session::get('cart');
+        $subtotal = 0;
+        foreach($cart as $item){
+            $subtotal += $item->price * $item->quantity;
+        }
+
+        $order = Order::create([
+            'subtotal' => $subtotal,
+            'shipping' => 10,
+            'user_id' => \Auth::user()->id
+        ]);
+
+        foreach($cart as $item){
+            $this->saveOrderItem($item, $order->id);
+        }
+
+        $message = 'Su compra se ha realizado correctamente!';
+        \Session::forget('cart');
+        //return redirect()->route('home');
+        return redirect()->route('home')->with('message', $message);
+    }
+
+    private function saveOrderItem($item, $order_id)
+    {
+        OrderItem::create([
+            'quantity' => $item->quantity,
+            'price' => $item->price,
+            'product_id' => $item->id,
+            'order_id' => $order_id
+        ]);
     }
     
 }

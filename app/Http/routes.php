@@ -133,6 +133,13 @@ Route::get('payment/status', array(
 	'uses' => 'PaypalController@getPaymentStatus',
 ));
 
+// comprar
+
+Route::get('buy', [
+	'as' => 'buy',
+	'uses' => 'CartController@saveOrder'
+]);
+
 
 // ADMIN -------------
 

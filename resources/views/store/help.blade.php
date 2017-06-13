@@ -5,10 +5,11 @@ Ayuda
 @stop
 
 @section('content')
-<<div class="container">
-	<h1>Ayuda TecnoShop</h1>
-	<div class="container">
-	<pre>
+<div class="container">
+	<div class="row">
+	
+	<div class="container col-md-10 col-md-offset-1 text-justify">
+		<h1>Ayuda TecnoShop</h1>
 		<h2>¿Quiénes somos?</h2>
 			TecnoShop es una tienda online de aparatos electrónicos, constituida en 2017 por dos miembros,
 		Israel Pereira y Daniel Martín.
@@ -40,7 +41,8 @@ Ayuda
 		registrado, primero tendrás que ir a la página de Registro y rellenar el formulario, totalmente gratis!
 
 		<h3>Gracias por tu interés!!</h3>
-	</pre>
+		</div>
+	
 	</div>
 </div>
 @stop
